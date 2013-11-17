@@ -22,6 +22,8 @@ This project drew heavily from the following:
 
 The Apple [QuickLook Programming](https://developer.apple.com/library/mac/documentation/userexperience/conceptual/quicklook_programming_guide/Introduction/Introduction.html) and [Audio Queue Services Programming](https://developer.apple.com/library/mac/documentation/MusicAudio/Conceptual/AudioQueueProgrammingGuide/Introduction/Introduction.html) guides.
 
+For testing, this project includes Rondo_Alla_Turka.ogg from the Wikipedia [article](http://en.wikipedia.org/wiki/File:Rondo_Alla_Turka.ogg) on Vorbis. This file is from [WikiMedia Commons](http://commons.wikimedia.org/wiki/Main_Page), a freely licensed media repository.
+
 ###License
 In keeping with the open source nature of Ogg/Vorbis, this project uses the MIT License for its source code.
 
