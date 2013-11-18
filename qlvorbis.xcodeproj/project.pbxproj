@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BC2381E31839756500EDC1DD /* Vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2381E21839756500EDC1DD /* Vorbis.framework */; };
-		BC2381E41839757100EDC1DD /* Vorbis.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC2381E21839756500EDC1DD /* Vorbis.framework */; };
+		BC035C6518398D75000E1D44 /* Vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC035C6418398D75000E1D44 /* Vorbis.framework */; };
+		BC035C6718398D84000E1D44 /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC035C6618398D84000E1D44 /* Ogg.framework */; };
+		BC2C4CCF18398D9C00E2AD3D /* Ogg.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC035C6618398D84000E1D44 /* Ogg.framework */; };
+		BC2C4CD018398D9C00E2AD3D /* Vorbis.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC035C6418398D75000E1D44 /* Vorbis.framework */; };
 		BC42349C1829EF500083B6B9 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC42349B1829EF500083B6B9 /* QuickLook.framework */; };
 		BC42349E1829EF500083B6B9 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC42349D1829EF500083B6B9 /* ApplicationServices.framework */; };
 		BC4234A01829EF500083B6B9 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC42349F1829EF500083B6B9 /* CoreServices.framework */; };
@@ -22,8 +24,6 @@
 		BC4234CC182A7C100083B6B9 /* qlvorbis.qlgenerator in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC4234981829EF500083B6B9 /* qlvorbis.qlgenerator */; };
 		BC4234CF182A7D380083B6B9 /* Engine.h in Headers */ = {isa = PBXBuildFile; fileRef = BC4234CD182A7D380083B6B9 /* Engine.h */; };
 		BC4234D0182A7D380083B6B9 /* Engine.mm in Sources */ = {isa = PBXBuildFile; fileRef = BC4234CE182A7D380083B6B9 /* Engine.mm */; };
-		BCD40D6F1838644100738FB9 /* Ogg.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC0951A01838625700076A70 /* Ogg.framework */; };
-		BCD40D711838647F00738FB9 /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0951A01838625700076A70 /* Ogg.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,8 +33,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				BCD40D6F1838644100738FB9 /* Ogg.framework in CopyFiles */,
-				BC2381E41839757100EDC1DD /* Vorbis.framework in CopyFiles */,
+				BC2C4CCF18398D9C00E2AD3D /* Ogg.framework in CopyFiles */,
+				BC2C4CD018398D9C00E2AD3D /* Vorbis.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +51,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BC0951A01838625700076A70 /* Ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Ogg.framework; sourceTree = "<group>"; };
-		BC2381E21839756500EDC1DD /* Vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Vorbis.framework; sourceTree = "<group>"; };
+		BC035C6418398D75000E1D44 /* Vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Vorbis.framework; sourceTree = "<group>"; };
+		BC035C6618398D84000E1D44 /* Ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Ogg.framework; sourceTree = "<group>"; };
 		BC4234981829EF500083B6B9 /* qlvorbis.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qlvorbis.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC42349B1829EF500083B6B9 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
 		BC42349D1829EF500083B6B9 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
@@ -76,14 +76,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCD40D711838647F00738FB9 /* Ogg.framework in Frameworks */,
-				BC2381E31839756500EDC1DD /* Vorbis.framework in Frameworks */,
 				BC4234C9182A01840083B6B9 /* CoreAudio.framework in Frameworks */,
 				BC4234A01829EF500083B6B9 /* CoreServices.framework in Frameworks */,
 				BC4234BC1829F4300083B6B9 /* AudioToolbox.framework in Frameworks */,
 				BC4234A21829EF500083B6B9 /* CoreFoundation.framework in Frameworks */,
 				BC42349C1829EF500083B6B9 /* QuickLook.framework in Frameworks */,
 				BC42349E1829EF500083B6B9 /* ApplicationServices.framework in Frameworks */,
+				BC035C6718398D84000E1D44 /* Ogg.framework in Frameworks */,
+				BC035C6518398D75000E1D44 /* Vorbis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,8 +110,8 @@
 		BC42349A1829EF500083B6B9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BC2381E21839756500EDC1DD /* Vorbis.framework */,
-				BC0951A01838625700076A70 /* Ogg.framework */,
+				BC035C6618398D84000E1D44 /* Ogg.framework */,
+				BC035C6418398D75000E1D44 /* Vorbis.framework */,
 				BC4234C8182A01840083B6B9 /* CoreAudio.framework */,
 				BC4234BB1829F4300083B6B9 /* AudioToolbox.framework */,
 				BC42349B1829EF500083B6B9 /* QuickLook.framework */,
@@ -332,6 +332,7 @@
 					"$(inherited)",
 					"$(SRCROOT)",
 					/Users/everette/Development/XcodeProjects/qlvorbis,
+					/Users/everette/Desktop/qlvorbis,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "qlvorbis/qlvorbis-Prefix.pch";
@@ -351,6 +352,7 @@
 					"@loader_path/../Frameworks/",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = YES;
 				VALID_ARCHS = "x86_64 i386";
 				WRAPPER_EXTENSION = qlgenerator;
 			};
@@ -366,6 +368,7 @@
 					"$(inherited)",
 					"$(SRCROOT)",
 					/Users/everette/Development/XcodeProjects/qlvorbis,
+					/Users/everette/Desktop/qlvorbis,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "qlvorbis/qlvorbis-Prefix.pch";
@@ -385,6 +388,7 @@
 					"@loader_path/../Frameworks/",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = YES;
 				VALID_ARCHS = "x86_64 i386";
 				WRAPPER_EXTENSION = qlgenerator;
 			};
