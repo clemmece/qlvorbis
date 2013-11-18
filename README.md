@@ -17,6 +17,7 @@ There are several broken/non-existent parts at present:
 In order to build this project, you will need to do the following:
 
 1. Download and build the libogg and libvorbis frameworks from [xiph.org](http://xiph.org/downloads/)
+	- I used libogg v1.3.1 and libvorbis v1.3.3 for testing
 	- The qlvorbis project is set up to use dynamic libraries by default so make sure the Xcode **Install Path** build setting is set to **@rpath** for both frameworks.
 	- If using Xcode v4.x+ you will have to make some additional changes to the project build settings for each framework in order for them to build.
 2. Download and open the **qlvorbis** Xcode project
