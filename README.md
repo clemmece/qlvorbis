@@ -3,6 +3,16 @@ qlvorbis
 
 A QuickLook plugin for ogg vorbis files.
 
+***NOTE:***
+
+There are several broken/non-existent parts at present:
+
+- seeking doesn't work yet, consequentially, there are no playback controls in the QuickLook dialog
+- the QuickLook dialog doesn't have much (any) useful information about the file
+- when activating QuickLook via spacebar in finder, the file will continue to play for a period of time after the QuickLook dialog is dismissed
+- the code only supports constant bit rate (CBR) files at present so attempting to QuickLook a variable bit rate (VBR) file with this plugin may make your computer unhappy
+- The things you know, the things you don't know, the things you don't know you don't know … 
+
 ###Build Instructions
 In order to build this project, you will need to do the following:
 
